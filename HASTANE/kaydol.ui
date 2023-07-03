@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>489</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-30</y>
+      <width>641</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Adsız.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>20200316220122!Saglikbakanligi_logo (2).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;KAYIT EKRANI&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>530</y>
+      <width>141</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta Adres&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="kayitol">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>540</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kaydol</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>png-transparent-computer-icons-register-button-miscellaneous-text-logo.png</normaloff>png-transparent-computer-icons-register-button-miscellaneous-text-logo.png</iconset>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>327</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta T.C. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta Adı&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta Soyadı&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta Cinsiyeti&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Kan Grubu&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta Doğum Yeri&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta Doğum Tarihi&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta Baba Adı&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta Anne Adı&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta Cep No.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hasta E-Posta&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_17">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Kullanıcı Adı&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_15">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Parola&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="tc"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="hastaadi"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="hastasoyadi"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cinsiyet">
+        <item>
+         <property name="text">
+          <string>Erkek</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kadın</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="kayitkangrubu">
+        <item>
+         <property name="text">
+          <string>A+</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>A-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>B+</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>B-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>AB+</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>AB-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0+</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0-</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="kayitdogumyeri">
+        <item>
+         <property name="text">
+          <string>Adana</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Adıyaman</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Afyonkarahisar</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ağrı</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Aksaray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Amasya</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ankara</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Antalya</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ardahan</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Artvin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Aydın</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Balıkesir</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bartın</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Batman</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bayburt</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bilecik</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bingöl</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bitlis</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bolu</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Burdur</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bursa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Çanakkale</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Çankırı</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Çorum</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Denizli</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Diyarbakır</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Düzce</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Edirne</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Elazığ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Erzincan	</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Erzurum</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Eskişehir</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gaziantep</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Giresun</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gümüşhane	</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hakkâri</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hatay</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Iğdır</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Isparta</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>İstanbul</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>İzmir</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kahramanmaraş</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Karabük</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Karaman</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kars</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kastamonu</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kayseri</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kırıkkale</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kırklareli</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kırşehir</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kilis</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kocaeli</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Konya</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kütahya</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Malatya</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Manisa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mardin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mersin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Muğla</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Muş</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nevşehir</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Niğde</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ordu</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Osmaniye</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Rize</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sakarya</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Samsun</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Siirt</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sinop</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sivas</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Şanlıurfa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Şırnak</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tekirdağ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tokat</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Trabzon</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tunceli</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Uşak</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Van</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Yalova</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Yozgat</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Zonguldak</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="dogumtarihi"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="babaadi"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="anaadi"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="cepno"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="eposta"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="kullaniciadi"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="parola">
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="adres">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>530</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>489</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

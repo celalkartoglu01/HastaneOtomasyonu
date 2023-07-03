@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>958</width>
+    <height>653</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-30</y>
+      <width>981</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Adsız.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>20200316220122!Saglikbakanligi_logo (2).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>651</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;HASTA KABUL SAYFASI&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>100</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffffff;&quot;&gt;Gideceği Birim&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>160</y>
+      <width>241</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#aaffff;&quot;&gt;Acil&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="acilkaydet">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>350</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kaydet</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>97</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_19">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaffff;&quot;&gt;Durum&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_20">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaffff;&quot;&gt;Acil Klinik&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_24">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaffff;&quot;&gt;Doktor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_26">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaffff;&quot;&gt;Şikayet&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>50</y>
+       <width>161</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLineEdit" name="acildurum"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="acilklinik">
+        <item>
+         <property name="text">
+          <string>Acil Tıp Kliniği 1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Acil Tıp Kliniği 2</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="acildoktor">
+        <item>
+         <property name="text">
+          <string>Erkut EROL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Abdullah Keyfo KAMA</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ahmet KUTUR</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>İlhami ADSIZ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ece YILMAZ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fethi YILDIZ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hilal MUTLU</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mukadder KARAHAN YILDIZ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nalan CAVLAK ADSIZ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ömer CANPOLAT</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Medine ÜNAL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Rıdvan ALGAN</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Savaş SEÇKİN</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Selahattin İPLİKÇİ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ümit Yaşar GÜL</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLineEdit" name="acilsikayet">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>270</y>
+       <width>133</width>
+       <height>61</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>160</y>
+      <width>241</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#aaffff;&quot;&gt;Muayene&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_27">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>84</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaffff;&quot;&gt;Doktor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_29">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>84</width>
+       <height>46</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaffff;&quot;&gt;Klinik&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="muayenekaydet">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>250</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kaydet</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="muayeneklinik">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>140</y>
+       <width>133</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Adli Tıp</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Algoloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Anesteziyoloji ve Reanimasyon</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Beyin ve Sinir Cerrahisi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cerrahi Onkoloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Çocuk Cerrahisi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Çocuk Gastroenteroloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Çocuk Palyatif Bakım Ünitesi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Çocuk Sağlığı ve Hastalıkları</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Çocuk ve Ergen Ruh Sağlığı</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Deri ve Zührevi Hastalıkları</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fiziksel Tıp ve Rehabilitasyon</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fizyoloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gastroenteroloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gastroenteroloji Cerrahisi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Genel Cerrahi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Göğüs Cerrahisi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Göğüs Hastalıkları</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Göz Hastalıkları</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>İç Hastalıkları</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kadın Hastalıkları ve Doğum</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kalp Damar Cerrahisi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kardiyoloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KBB Hastalıkları</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nöroloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ortopedi ve Travmatoloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Plastik ve Estetik Cerrahi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Radyoloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ruh Sağlığı ve Hastalıkları</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tıbbi Genetik</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Üroloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tıbbi Onkoloji</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tıbbi Patoloji</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="muayenedoktor">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>190</y>
+       <width>133</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Betül YÜRÜRDURMAZ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Meltem KANAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Onur HANBEYOĞLU</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Serdal ALBAYRAK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Serkan YILMAZ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>İbrahim AKDENİZ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Asiye Elvan KUMKAYIR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cihan ÖNDER</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Savaş ÖZTÜRK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Münevver Gizem HEKİM</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tamer GÜNDOĞDU</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sadık KEŞMER</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Semih KOÇYİĞİT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sinem KESER</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ahmet SERTKAYA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Selçuk KAPLAN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Suna AYDIN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mücahid YILMAZ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nihat SUSAMAN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ersin KILIÇ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ali Sami ŞEKER</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tevfik BALIKÇI</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ela KAPLAN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mustafa Hakan DEMİRBAŞ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>İrfan GÜLER</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Asude AKSOY</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kadir YILDIRIM</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>169</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta T.C. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta Adı&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta Soyadı&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta Cinsiyeti&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Kan Grubu&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta Doğum Yeri&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta Doğum Tarihi&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta Baba Adı&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta Anne Adı&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta Cep No.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta E-Posta&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hasta Adres&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>70</y>
+      <width>135</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="hasttatc"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="hastaadi"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="hastasoyad"/>
+     </item>
+     <item>
+      <widget class="QComboBox" name="hastacinsiyet">
+       <item>
+        <property name="text">
+         <string>Erkek</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kadın</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="kangrubu">
+       <item>
+        <property name="text">
+         <string>A+</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>A-</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>B+</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>B-</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AB+</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AB-</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>0+</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>0-</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="dogumyeri">
+       <item>
+        <property name="text">
+         <string>Adana</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Adıyaman</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Afyonkarahisar</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ağrı</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Aksaray</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Amasya</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ankara</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Antalya</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ardahan</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Artvin</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Aydın</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Balıkesir</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bartın</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Batman</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bayburt</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bilecik</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bingöl</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bitlis</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bolu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Burdur</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bursa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Çanakkale</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Çankırı</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Çorum</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Denizli</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Diyarbakır</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Düzce</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Edirne</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Elazığ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Erzincan	</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Erzurum</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Eskişehir</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gaziantep</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Giresun</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gümüşhane	</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hakkâri</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hatay</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Iğdır</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Isparta</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>İstanbul</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>İzmir</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kahramanmaraş</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Karabük</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Karaman</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kars</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kastamonu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kayseri</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kırıkkale</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kırklareli</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kırşehir</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kilis</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kocaeli</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Konya</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kütahya</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Malatya</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Manisa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mardin</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mersin</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Muğla</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Muş</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nevşehir</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Niğde</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ordu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Osmaniye</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rize</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sakarya</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Samsun</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Siirt</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sinop</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sivas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Şanlıurfa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Şırnak</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tekirdağ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tokat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Trabzon</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tunceli</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Uşak</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Van</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yalova</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yozgat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Zonguldak</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="dogumtarihi"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="babadi"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="anaadi"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="cepno"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="eposta"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLineEdit" name="hastaadres">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>480</y>
+      <width>133</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>958</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

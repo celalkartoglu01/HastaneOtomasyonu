@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1027</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>1051</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>5c4bd40a58fe131cf068arkaplan2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>30</y>
+     <width>821</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ffffff;&quot;&gt;Hastane Otomasyon Sistemine Hoşgeldiniz&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>831</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="btnyonetici">
+      <property name="text">
+       <string>Yönetici Girişi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>png-transparent-computer-icons-manager-businessperson-management-administrator-company-human-resource-management-people.png</normaloff>png-transparent-computer-icons-manager-businessperson-management-administrator-company-human-resource-management-people.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnhastakabul">
+      <property name="text">
+       <string>Hasta Kabul</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>png-transparent-user-logo-computer-icons-industry-icon-user-experience-room-logo-black.png</normaloff>png-transparent-user-logo-computer-icons-industry-icon-user-experience-room-logo-black.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btndoktor">
+      <property name="text">
+       <string>Doktor Girişi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>png-transparent-physician-medicine-health-care-clinic-surgery-sick-people-logo-pharmaceutical-drug-silhouette.png</normaloff>png-transparent-physician-medicine-health-care-clinic-surgery-sick-people-logo-pharmaceutical-drug-silhouette.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnlaboratuvar">
+      <property name="text">
+       <string>Laboratuvar</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>png-transparent-17th-international-conference-on-pathology-science-student-laboratory-microscope-biomedical-industry-laboratory-experiment-logo.png</normaloff>png-transparent-17th-international-conference-on-pathology-science-student-laboratory-microscope-biomedical-industry-laboratory-experiment-logo.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnhastagiris">
+      <property name="text">
+       <string>Hasta Girişi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>png-clipart-organization-company-service-architectural-engineering-management-group-icon-cdr-hand.png</normaloff>png-clipart-organization-company-service-architectural-engineering-management-group-icon-cdr-hand.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnkaydol">
+      <property name="text">
+       <string>Kaydol</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>png-transparent-computer-icons-register-button-miscellaneous-text-logo.png</normaloff>png-transparent-computer-icons-register-button-miscellaneous-text-logo.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btniletisim">
+      <property name="text">
+       <string>İletişim</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>images.png</normaloff>images.png</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>111</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>20200316220122!Saglikbakanligi_logo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

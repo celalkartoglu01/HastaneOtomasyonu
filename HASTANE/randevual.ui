@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>956</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-30</y>
+      <width>971</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Adsız.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>20200316220122!Saglikbakanligi_logo (2).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>651</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;RANDEVU ALMA EKRANI&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>124</width>
+      <height>119</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Hasta ID&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>220</y>
+      <width>124</width>
+      <height>182</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Klinik&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>380</y>
+      <width>124</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Doktor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>130</y>
+      <width>124</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Randevu Tarihi&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>400</y>
+      <width>124</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Saat&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="tarih">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>190</y>
+      <width>312</width>
+      <height>183</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="saat">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>430</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>08:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>08:30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>09:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>09:30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10:30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11:30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12:30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13:30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14:30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15:30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16:30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17:30</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="randevual">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>540</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Randevu Al</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>png-transparent-southeast-physical-therapy-management-computer-icons-business-diary-appointment-miscellaneous-employment-medicine.png</normaloff>png-transparent-southeast-physical-therapy-management-computer-icons-business-diary-appointment-miscellaneous-employment-medicine.png</iconset>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>100</y>
+      <width>236</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="hastaid"/>
+     </item>
+     <item>
+      <widget class="QComboBox" name="randevuklinik">
+       <item>
+        <property name="text">
+         <string>Adli Tıp</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Algoloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Anesteziyoloji ve Reanimasyon</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Beyin ve Sinir Cerrahisi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cerrahi Onkoloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Çocuk Cerrahisi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Çocuk Gastroenteroloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Çocuk Palyatif Bakım Ünitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Çocuk Sağlığı ve Hastalıkları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Çocuk ve Ergen Ruh Sağlığı</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Deri ve Zührevi Hastalıkları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fiziksel Tıp ve Rehabilitasyon</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fizyoloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gastroenteroloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gastroenteroloji Cerrahisi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Genel Cerrahi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Göğüs Cerrahisi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Göğüs Hastalıkları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Göz Hastalıkları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>İç Hastalıkları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kadın Hastalıkları ve Doğum</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kalp Damar Cerrahisi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kardiyoloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>KBB Hastalıkları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nöroloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ortopedi ve Travmatoloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Plastik ve Estetik Cerrahi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Radyoloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ruh Sağlığı ve Hastalıkları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tıbbi Genetik</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Üroloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tıbbi Onkoloji</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tıbbi Patoloji</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="randevudoktor">
+       <item>
+        <property name="text">
+         <string>Betül YÜRÜRDURMAZ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Meltem KANAR</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Onur HANBEYOĞLU</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Serdal ALBAYRAK</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Serkan YILMAZ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>İbrahim AKDENİZ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Asiye Elvan KUMKAYIR</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cihan ÖNDER</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Savaş ÖZTÜRK</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Münevver Gizem HEKİM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tamer GÜNDOĞDU</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sadık KEŞMER</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Semih KOÇYİĞİT</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sinem KESER</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ahmet SERTKAYA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Selçuk KAPLAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Suna AYDIN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mücahid YILMAZ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nihat SUSAMAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ersin KILIÇ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ali Sami ŞEKER</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tevfik BALIKÇI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ela KAPLAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mustafa Hakan DEMİRBAŞ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>İrfan GÜLER</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Asude AKSOY</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kadir YILDIRIM</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>956</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

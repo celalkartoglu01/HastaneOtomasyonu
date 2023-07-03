@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>833</width>
+    <height>653</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-50</y>
+      <width>881</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>5c4bd40a58fe131cf068arkaplan2.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>20200316220122!Saglikbakanligi_logo (2).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>651</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;DOKTOR PANELİ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>151</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="doktorkullanici">
+       <property name="text">
+        <string>Kullanıcı</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>indir.png</normaloff>indir.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="doktorrandevularim">
+       <property name="text">
+        <string>Randevularım</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>png-transparent-southeast-physical-therapy-management-computer-icons-business-diary-appointment-miscellaneous-employment-medicine.png</normaloff>png-transparent-southeast-physical-therapy-management-computer-icons-business-diary-appointment-miscellaneous-employment-medicine.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="randevusil">
+       <property name="text">
+        <string>Randevu Sil</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>png-transparent-southeast-physical-therapy-management-computer-icons-business-diary-appointment-miscellaneous-employment-medicine.png</normaloff>png-transparent-southeast-physical-therapy-management-computer-icons-business-diary-appointment-miscellaneous-employment-medicine.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="doktorbekleyenhasta">
+       <property name="text">
+        <string>Bekleyen Hasta</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>png-transparent-user-logo-computer-icons-industry-icon-user-experience-room-logo-black.png</normaloff>png-transparent-user-logo-computer-icons-industry-icon-user-experience-room-logo-black.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="tahlilsonuclari">
+       <property name="text">
+        <string>Tahlil Sonuçları</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>png-transparent-adobe-logo-document-computer-software-management-data-business-finance-user-report-marketing.png</normaloff>png-transparent-adobe-logo-document-computer-software-management-data-business-finance-user-report-marketing.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>833</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
